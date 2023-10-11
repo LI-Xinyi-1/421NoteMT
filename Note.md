@@ -1,50 +1,32 @@
-## 合取范式 (CNF) 转化
 
-给定的前提为：
-1. \( P \rightarrow Q \)
-2. \( \neg P \rightarrow R \)
-3. \( Q \vee R \rightarrow S \)
+当然可以，以下是你要求的内容：
 
-转化为子句形式：
+将命题转换为合取范式（CNF）需要经过几个步骤。以下是如何将一个命题公式转换为CNF的指南：
 
-1. \( P \rightarrow Q \)   
-   使用第一步，转换为：  
-   \( \neg P \vee Q \)
+去除条件句 (Implication)
+对于任何形式为 P -> Q 的命题，我们可以将其转化为 ~P V Q。
 
-2. \( \neg P \rightarrow R \)  
-   使用第一步，转换为：  
-   \( P \vee R \)
+例如：
+P -> Q 变为 ~P V Q
 
-3. \( Q \vee R \rightarrow S \)  
-   使用第一步，转换为：  
-   \( \neg(Q \vee R) \vee S \)  
-   使用德摩根定律，进一步转换为：  
-   \( (\neg Q \wedge \neg R) \vee S \)  
-   使用分配律，得到：  
-   \( (\neg Q \vee S) \wedge (\neg R \vee S) \)
+去除双条件句 (Biconditional)
+对于任何形式为 P <-> Q 的命题，我们可以将其转化为 (P V ~Q) ^ (~P V Q)。
 
-## 使用归结法
+例如：
+P <-> Q 变为 (P V ~Q) ^ (~P V Q)
 
-为了证明结论，我们首先得到以下的子句形式：
+去除否定的非原子命题
+使用德摩根定律将否定从复合命题中移出。
 
-1. \( \neg P \vee Q \) 
-2. \( P \vee R \)
-3. \( \neg Q \vee S \)
-4. \( \neg R \vee S \)
-5. \( \neg S \) （结论的否定）
+例如：
+~(P ^ Q) 变为 ~P V ~Q
+~(P V Q) 变为 ~P ^ ~Q
 
-归结步骤：
+分配 (Distribution)
+使用分配律将命题转化为CNF的标准形式。
 
-a) 从3和5中，我们得到 \( \neg Q \)
-即，\( \neg Q \vee S \) 和 \( \neg S \) 归结为 \( \neg Q \)
+例如：
+P V (Q ^ R) 变为 (P V Q) ^ (P V R)
 
-b) 从4和5中，我们得到 \( \neg R \)
-即，\( \neg R \vee S \) 和 \( \neg S \) 归结为 \( \neg R \)
-
-c) 使用a中得到的 \( \neg Q \) 和1，我们有 \( \neg P \)
-即，\( \neg P \vee Q \) 和 \( \neg Q \) 归结为 \( \neg P \)
-
-d) 使用b中得到的 \( \neg R \) 和2，我们又得到 \( P \)
-即，\( P \vee R \) 和 \( \neg R \) 归结为 \( P \)
-
-此时，我们得到了 \( P \) 和 \( \neg P \) 的矛盾，因此结论S被证明。
+简化
+最后，尽可能简化结果。例如，如果你得到 P V ~P，这就是一个永远为真的语句，可以简化为 True。
