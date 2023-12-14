@@ -1,3 +1,183 @@
+阅读材料采用通常的结构（基本、预期、高级名称）。每个级别都包含上一个级别的材料。我们已经学习过的章节的阅读内容在期中和期末考试中将保持不变。未来的读数可能会根据我们所涵盖的内容进行调整，但如果是这样的话，一些读数将被删除。  
+
+章节编号基于 AIMA 教科书第 4 版。每个列表条目仅提供附加部分。例如，预期阅读内容包括“基本”下列出的部分以及“预期”下列出的部分。建议高级阅读一些额外的读物。
+
+如果你碰巧有第三版，那么第 12 章（第 4 章）是 13（第 3 版），13 是 14，14 是 15，第 19 章是 18，并且没有深度学习的第 21 章。 
+
+第一章简介 
+
+基础： 第 1.1节、  1.4 节和摘要
+预期：  1.1、1.2、1.5 _  _ _ 
+高级：  1.3、书目和历史注释
+阅读图灵关于“计算机器与智能”的经典论文
+阅读麦卡锡关于“具有常识的程序”的经典论文
+第二章 代理人 
+
+基础 ：第 2.1、2.3、2.4 节和 摘要
+预期：  2.2
+高级：书目和历史注释
+熟悉PEAS描述、不同类型的任务环境、代理架构（反射、模型、目标、效用、学习） 
+
+第三章 搜寻 
+
+基础 ：第 3.1、3.2、3.3、3.4.1、3.4.2、3.4.3、3.5.2、3.6.1、3.6.2节 和 摘要_ _  _ _  _ _  _ _  _ _  _  _  _
+预计 ：  3.4.4、3.4.5、3.4.6 _  _ _
+高级：所有章节，包括参考文献和历史注释
+将问题表述为搜索问题：初始状态、动作、转换模型、状态空间、目标测试。理解完整性、最优性、时间复杂度、空间复杂度。无信息搜索策略：BFS、DFS、统一成本、深度有限、迭代加深 DFS（图和树变体）。贪婪最佳优先搜索、A* 搜索和启发式方法作为问题的宽松版本的解决方案。 
+
+第 6 章约束满足问题 
+
+基础：第 6.1节 和 摘要
+预期：  6.2（不是 6.2.3、6.2.4、6.2.6）、6.3 
+高级：所有章节，包括参考文献和历史注释
+知道如何将问题表述为 CSP，将 CSP 连接为搜索、变量、域、约束的特例 
+
+第 7 章 逻辑代理 
+
+基础：第 7.1、7.2、7.3、7.4 节和 摘要
+预期：  7.5 
+高级：所有章节，包括参考文献和历史注释
+使用命题逻辑符号表达问题，理解符号，通过模型检查证明蕴涵，了解定理证明背后的原理以及它与模型检查有何不同，转换为 CNF  
+
+第 8 章 一阶逻辑 
+
+基础：第 8.1、8.2 节、 摘要
+预期：  8.3
+高级：所有章节，包括参考文献和历史注释
+使用 FOL 提出问题，理解符号，尤其是全称量词和存在量词，将英语句子翻译为 FOL 句子，理解通过用特定对象替换量词的变量来生成多个等效句子，理解等式的使用 
+
+期中材料结束 
+
+第 12 章量化不确定性 
+
+基础：第 12.1、12.2、12.3、12.4、12.5、12.6 节、 摘要
+预期：（ 与基本相同） 
+高级：所有章节，包括参考文献和历史注释
+了解基本概率符号、条件概率、使用完全联合分布进行推理、独立性和条件独立性、贝叶斯规则、朴素贝叶斯模型和文本分类
+
+第13章概率推理 
+
+基本： 第 13.1、13.2 节（不是 13.2.1、13.2.2、13.2.3、13.2.4）、 摘要
+预计：  13.3、13.4 
+高级：所有章节，包括参考文献和历史注释
+贝叶斯网络语义、条件概率表、贝叶斯网络中的精确推理、查询/隐藏/证据变量（忽略变量消除）、近似推理（仅直接采样和拒绝采样）
+
+第 14 章随时间推移的概率推理 
+
+基础：第 14.1、14.2 和 14.3 节， 摘要
+预期：  14.4 
+高级：所有章节，包括参考文献和历史注释
+状态、观察、马尔可夫链、马尔可夫假设、转换和传感器模型、推理任务（它们是什么以及它们有何不同）：过滤、预测、平滑、最可能的解释、学习、具有离散观察的隐马尔可夫模型 
+
+第十九章从例子中学习 
+
+基础：第 19.1、19.2 和 19.3 节， 摘要
+预计：  19.7.5 
+高级：所有章节，包括参考文献和历史注释
+学习形式、监督学习公式、假设、偏差-方差权衡、决策树、感知器、支持向量机、泛化、过度拟合 
+
+第 20 章学习概率模型 
+
+基础：第 20.1、20.2.1、20.2.2、20.2.4、19.3 节、 摘要
+预期：  20.3   （只是EM的基本思想） 
+高级：所有章节，包括参考文献和历史注释
+离散和连续模型的最大似然估计、最大后验概率、贝叶斯学习、EM 算法 
+
+第 21 章深度学习 
+
+多层、激活函数和损失函数的基本思想/概念
+
+==============================================================================================================
+The readings are structured using the usual (basic, expected, advanced designations). Each level include the material for the previous level. The readings of chapters we haver already covered will remain the same for the midterm and final. The future readings might be adjusted depending on what we cover but if that's the case some readings will be removed.  
+
+The section number is based on the 4th edition of the AIMA textbook. Each list entry provides just the additional sections. For example the Expected reading include the sections listed under Basic as well as the sections listed under Expected. Some additional readings are suggested for Advanced.
+
+If you happen to have the 3rd edition then chapter 12 (4th) is 13 (3rd), 13 is 14, and 14 is 15, chapter 19 is 18, and there is no chapter 21 for deep learning. 
+
+CHAPTER 1 INTRODUCTION 
+
+Basic: Sections 1.1, 1.4 and Summary
+Expected: 1.1, 1.2, 1.5
+Advanced: 1.3, Bibliographical and Historical notes
+Read the classic paper by Turing on “Computing Machinery and Intelligence”
+Read the classic paper by McCarthy on “Programs with Common Sense
+CHAPTER 2 AGENTS 
+
+Basic: Sections 2.1, 2.3, 2.4 and Summary
+Expected: 2.2
+Advanced: Bibliographical and historical notes
+Be familiar with PEAS description, different types of task environments, agent architectures (reflex, model, goal, utility, learning) 
+
+CHAPTER 3 SEARCH 
+
+Basic: Sections 3.1, 3.2, 3.3, 3.4.1, 3.4.2, 3.4.3, 3.5.2, 3.6.1, 3.6.2 and Summary
+Expected: 3.4.4, 3.4.5, 3.4.6
+Advanced: All the chapter including bibliographical and historical notes
+Formulate problems as search problems: initial state, actions, transition model, state space, goal test. Understand completeness, optimality, time complexity, space complexity. Uninformed search strategies: BFS, DFS, Uniform Cost, Depth Limited, Iterative deepening DFS (both graph and tree variants). Greedy best-first search, A* search and heuristics as solutions to relaxed versions of the problem. 
+
+CHAPTER 6 CONSTRAINT SATISFACTION PROBLEMS 
+
+Basic: Sections 6.1 and Summary
+Expected: 6.2 (not 6.2.3, 6.2.4, 6.2.6), 6.3 
+Advanced: All the chapter including bibliographical and historical notes
+Know how to formulate a problem as a CSP, connection of CSP as a special case of search, variables, domains, constraints 
+
+CHAPTER 7 LOGICAL AGENTS 
+
+Basic: Sections 7.1, 7.2, 7.3, 7.4, and Summary
+Expected: 7.5 
+Advanced: All the chapter including bibliographical and historical notes
+Formulate problems using propositional logic notation, understand notation, prove entailment by model checking, understand the principles behind theorem proving and how it is different than model checking, conversion to CNF  
+
+CHAPTER 8 FIRST ORDER LOGIC 
+
+Basic: Sections 8.1, 8.2, Summary
+Expected: 8.3
+Advanced: All the chapter including bibliographical and historical notes
+Formulate problems using FOL, understand notation especially the universal and existential quantifiers, translate English sentence to FOL sentences, understand the generation of multiple equivalent sentences by substitution of variables with specific objects for the quantifiers, understand the use of equality 
+
+END OF MIDTERM MATERIAL 
+
+CHAPTER 12 Quantifying uncertainty 
+
+Basic: Sections 12.1, 12.2, 12.3, 12.4, 12.5, 12.6, Summary
+Expected: (same as basic) 
+Advanced: All the chapter including bibliographical and historical notes
+Understand basic probability notation, conditional probability, inference using full joint distribution, independence and conditional independance, Bayes' rule, Naive Bayes Models and text classification
+
+CHAPTER 13 Probabilistic Reasoning 
+
+Basic: Sections 13.1, 13.2 (not 13.2.1, 13.2.2, 13.2.3, 13.2.4), Summary
+Expected: 13.3, 13.4 
+Advanced: All the chapter including bibliographical and historical note
+Semantics of Bayesian networks, conditional probability tables, exact inference in Bayesian networks, query/hidden/evidence variables (ignore variable elimination), approximate inference (just direct sampling and rejection sampling)
+
+CHAPTER 14 Probabilistic Reasoning over time 
+
+Basic: Sections 14.1, 14.2 14.3, Summary
+Expected: 14.4 
+Advanced: All the chapter including bibliographical and historical notes
+States, observations, markov chains, markov assumption, transition and sensor models, inference tasks (what they are and how they are different): filtering, prediction, smoothing, most likely explanation, learning, Hidden Markov Models with discrete observations 
+
+CHAPTER 19 Learning from Examples 
+
+Basic: Sections 19.1, 19.2 19.3, Summary
+Expected: 19.7.5 
+Advanced: All the chapter including bibliographical and historical notes
+Forms of learning, supervised learning formulation, hypotheses, bias-variance tradeoff, decision trees, perceptron, support vector machines, generalization, over-fitting 
+
+CHAPTER 20 Learning Probabilistic Models 
+
+Basic: Sections 20.1, 20.2.1, 20.2.2, 20.2.4,  19.3, Summary
+Expected: 20.3  (just the basic idea of EM) 
+Advanced: All the chapter including bibliographical and historical notes
+maximum likelihood estimation for discrete and continuous models, maximum a posteriori, Bayesian learning, EM-algorithm 
+
+CHAPTER 21 Deep Learning 
+
+ The basic ideas/concepts of multiple layers, activation functions, and loss function
+ 
+==============================================================================================================
 
 Uniform-Cost Search (UCS, 均匀代价搜索):
 
