@@ -87,7 +87,7 @@
 
 多层、激活函数和损失函数的基本思想/概念
 
-==============================================================================================================
+==================================================
 The readings are structured using the usual (basic, expected, advanced designations). Each level include the material for the previous level. The readings of chapters we haver already covered will remain the same for the midterm and final. The future readings might be adjusted depending on what we cover but if that's the case some readings will be removed.  
 
 The section number is based on the 4th edition of the AIMA textbook. Each list entry provides just the additional sections. For example the Expected reading include the sections listed under Basic as well as the sections listed under Expected. Some additional readings are suggested for Advanced.
@@ -177,7 +177,7 @@ CHAPTER 21 Deep Learning
 
  The basic ideas/concepts of multiple layers, activation functions, and loss function
  
-==============================================================================================================
+==================================================
 
 Uniform-Cost Search (UCS, 均匀代价搜索):
 
